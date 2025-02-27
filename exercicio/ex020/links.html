@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(238, 255, 0);
+
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(19, 18, 18, 0.589);
+        }
+    </style>
+</head>
+<body>
+    <h1>links personalizados</h1>
+    <ul>
+        <li><a href="http://www.facebook.com" >www.facebook.com</a></li>
+        <li><a href="http://www.google.com">www.google.com</a></li>
+    </ul>
+
+</body>
+</html>
